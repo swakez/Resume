@@ -8,8 +8,8 @@
 /*
 Global styles
 -----------------------------*/
-body {
-    background: lightblue;
+body {    
+    font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -19,7 +19,16 @@ a {
 a:hover{
     text-decoration: none;
 }
+h1, h2 {
+    font-family: 'Droid Serif', serif;
+}
+h1{
+    font-size: 80px;
+}
 
+h2 {
+    font-size: 40px;
+}
 
 /*
 Header and Footer
@@ -31,6 +40,17 @@ header, footer {
 
 header h1, header h2{
     color: #EDF2F4;
+    font-family: 'Caveat', cursive;
+}
+
+footer h2{
+    font-family: 'Caveat', cursive;
+}
+
+#copyright{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    
 }
 
 /*
