@@ -1,3 +1,49 @@
+/* Color Pallete
+#2B2D42 - dark blue
+#EDF2F4 - blue/white
+#8D99AE - light blue
+#EF233C - red
+
+*/
+/*
+Global styles
+-----------------------------*/
 body {
     background: lightblue;
+}
+
+a {
+    color: #EF233C;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+/*
+Header and Footer
+-----------------------------*/
+header, footer {
+    background:#2B2D42; 
+    color: #8D99AE;
+}
+
+header h1, header h2{
+    color: #EDF2F4;
+}
+
+/*
+Work Experience
+-----------------------------*/
+.work {
+    background: #EDF2F4;
+}
+
+
+/*
+Education
+-----------------------------*/
+.education {
+    background: #8D99AE;
 }
