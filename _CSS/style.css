@@ -34,6 +34,14 @@ header h1, header h2{
 }
 
 /*
+Projects
+-----------------------------*/
+.project{
+    background: #8D99AE;
+}
+
+
+/*
 Work Experience
 -----------------------------*/
 .work {
@@ -45,5 +53,5 @@ Work Experience
 Education
 -----------------------------*/
 .education {
-    background: #8D99AE;
+    background: #708090;
 }
